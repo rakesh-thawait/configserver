@@ -1,0 +1,9 @@
+server:
+  port: 8981
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/rakesh-thawait/config
+          skipSslValidation: true

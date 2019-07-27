@@ -1,0 +1,3 @@
+ARG OPENJRE_TAG=8u151-jre-alpine3.7
+
+FROM openjdk:$OPENJRE_TAG
